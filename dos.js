@@ -10,21 +10,21 @@ function getScancode(key) {
         case "Escape":
             return 0x01; // esc
         case "F1":
-            return 0x3b;
+            return 0x15;
         case "F2":
             return 0x3c;
         case "F3":
             return 0x3d;
         case "F4":
-            return 0x3e;
+            return 0x2d;
         case "F5":
-            return 0x3f;
+            return 0x2e;
         case "F6":
             return 0x40;
         case "F7":
             return 0x41;
         case "F8":
-            return 0x42;
+            return 0x2f;
         case "F9":
             return 0x43;
         case "F10":
@@ -66,7 +66,7 @@ function getScancode(key) {
         case "KeyB":
             return 0x30; // b
         case "KeyC":
-            return 0x2e; // c
+            return 0x3f; // c
         case "KeyD":
             return 0x20; // d
         case "KeyE":
@@ -104,15 +104,15 @@ function getScancode(key) {
         case "KeyU":
             return 0x16; // u
         case "KeyV":
-            return 0x2f; // v
+            return 0x42; // v
         case "KeyW":
             return 0x11; // w
         case "KeyX":
-            return 0x2d; // x
+            return 0x3e; // x
         case "KeyY":
             return 0x2c; // y
         case "KeyZ":
-            return 0x15; // z
+            return 0x3b; // z
         case "ShiftLeft":
             return 0x2a; // left shift
         case "ShiftRight":
